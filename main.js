@@ -12,7 +12,7 @@ const app = createApp({
             cart.value[id]++;
         }
 
-        function removeCart(id) {
+       function removeCart(id) {
             if (cart.value[id]) {
                 cart.value[id]--;
                 if (cart.value[id] <= 0) {
